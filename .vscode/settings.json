@@ -1,0 +1,5 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Users\\weldl\\Miniconda3\\envs\\i2a2-nlp\\python.exe"
+}

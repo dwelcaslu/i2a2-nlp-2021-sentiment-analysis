@@ -1,0 +1,30 @@
+Colunas ID: ['id', 'reviewer_id', 'product_id', 'product_name']
+
+
+# Features details:
+reviewer_birth_year:
+    tratar os valores menores que 1800 e valores nulos
+
+reviewer_gender:
+    remover/tratar valores nulos
+
+reviewer_state:
+    remover/tratar valores nulos
+
+# Target:
+rating:
+    equilibrar as classes durante o treinamento (utilizar o smote)
+
+
+Melhorias para o Model 05 v3:
+XXX: Criação das features positeveness_index e negativeness_index como indicadores de positividade a partir das palavras positivas e negativas mais frequentes.
+
+XXX: Adicionar features criadas a partir do submission_date, exemplo: submission hour/day of week.
+Add novas features a partir do review_title e review_text, exemplo: número de palavras/numero de palavras/numero de caracteres únicos.
+
+Aplicar feature selection.
+
+
+Melhorias para o Model 06 v1:
+Word2Vec
+
